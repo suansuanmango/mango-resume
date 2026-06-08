@@ -326,7 +326,8 @@ section { padding: 88px 0; }
 .work-badge.project { background: #EAE8F3; color: #3A3280; }
 
 .work-card h4 {
-  font-size: 0.98rem;
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
