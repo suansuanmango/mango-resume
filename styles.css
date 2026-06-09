@@ -268,7 +268,7 @@ section { padding: 88px 0; }
 /* ── Skills ───────────────────────────────────────────────── */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 
@@ -524,7 +524,7 @@ footer {
 
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 1000px) {
-  .skills-grid    { grid-template-columns: repeat(2, 1fr); }
+  .skills-grid    { grid-template-columns: repeat(3, 1fr); }
   .creds-grid     { grid-template-columns: repeat(2, 1fr); }
   .about-content  { grid-template-columns: 1fr; }
   .about-stats    { grid-template-columns: repeat(4, 1fr); }
