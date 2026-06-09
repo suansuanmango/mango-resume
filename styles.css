@@ -225,17 +225,22 @@ section { padding: 88px 0; }
 
 .about-text p { margin-bottom: 1rem; line-height: 1.85; }
 
-.about-stats { display: flex; flex-direction: column; gap: 12px; }
+.about-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  align-content: start;
+}
 
 .stats-title {
+  grid-column: 1 / -1;
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--primary);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  margin-bottom: 4px;
 }
-
-.stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
 
 .stat {
   background: var(--bg);
