@@ -98,8 +98,23 @@ section { padding: 88px 0; }
   align-items: center;
 }
 
-.hero-tags { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+.hero-name {
+  font-family: 'Noto Serif TC', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 6px;
+}
 
+.hero-role {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  margin-bottom: 28px;
+}
+
+/* 保留 .tag 供其他地方使用 */
 .tag {
   background: var(--bg-alt);
   border: 1px solid var(--border);
@@ -112,7 +127,7 @@ section { padding: 88px 0; }
 
 #hero h1 {
   font-family: 'Noto Serif TC', serif;
-  font-size: clamp(2rem, 4vw, 3.2rem);
+  font-size: clamp(1.9rem, 4vw, 3rem);
   font-weight: 700;
   line-height: 1.3;
   margin-bottom: 16px;
@@ -122,7 +137,7 @@ section { padding: 88px 0; }
   font-size: 1rem;
   color: var(--text-muted);
   margin-bottom: 28px;
-  line-height: 1.7;
+  line-height: 1.8;
 }
 
 .hero-open {
