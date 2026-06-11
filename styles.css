@@ -455,7 +455,7 @@ section { padding: 88px 0; }
 
 .work-card .work-img-wrap img[src*="sitemap"]   { object-position: center 35%; }
 .work-card .work-img-wrap img[src*="蔥"]         { object-position: center 50%; }
-.work-card .work-img-wrap img[src*="系統整合"]   { object-position: center top; }
+.work-card .work-img-wrap img[src*="系統整合"]   { object-fit: contain; background: #fff; }
 .work-card .work-img-wrap img[src*="早報"]       { object-position: center 12%; }
 .work-card .work-img-wrap img[src*="投資平台"]   { object-position: center top; }
 .work-card .work-img-wrap img[src*="ai助理"]     { object-position: center 8%; }
