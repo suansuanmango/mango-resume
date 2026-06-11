@@ -396,8 +396,11 @@ section { padding: 88px 0; }
   font-size: 0.95rem;
   color: var(--text-muted);
   line-height: 1.75;
-  margin-top: -32px;
   margin-bottom: 36px;
+}
+
+.section-title + .works-subtitle {
+  margin-top: -32px;
 }
 
 .works-section-heading {
