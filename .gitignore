@@ -1,0 +1,12 @@
+# credentials
+.env
+.env.*
+*_token.json
+*_secret.json
+
+# macOS
+.DS_Store
+
+# editor
+.vscode/
+.idea/
