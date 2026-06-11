@@ -298,6 +298,10 @@ section { padding: 88px 0; }
   display: block;
 }
 
+.skill-img-wrap img[src*="流程診斷"]   { object-position: center 30%; }
+.skill-img-wrap img[src*="skill-ai"]   { object-position: center 40%; }
+.skill-img-wrap img[src*="skill-project"] { object-position: center 40%; }
+
 .skill-card h3 {
   font-size: 0.95rem;
   font-weight: 600;
@@ -440,9 +444,9 @@ section { padding: 88px 0; }
   display: block;
 }
 
-.work-card .work-img-wrap img[src*="蔥澡門面照"] {
-  object-position: center 65%;
-}
+.work-card .work-img-wrap img[src*="sitemap"]   { object-position: center 35%; }
+.work-card .work-img-wrap img[src*="蔥澡門面照"] { object-position: center 50%; }
+.work-card .work-img-wrap img[src*="系統整合"]   { object-position: center top; }
 
 .works-grid {
   display: grid;
