@@ -298,7 +298,7 @@ section { padding: 88px 0; }
   display: block;
 }
 
-.skill-img-wrap img[src*="流程診斷"]   { object-position: center 30%; }
+.skill-img-wrap img[src*="問題診斷流程"] { object-position: center 35%; }
 .skill-img-wrap img[src*="skill-ai"]   { object-position: center 40%; }
 .skill-img-wrap img[src*="skill-project"] { object-position: center 40%; }
 
