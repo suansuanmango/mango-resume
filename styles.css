@@ -243,11 +243,11 @@ section { padding: 88px 0; }
 
 .stats-title {
   grid-column: 1 / -1;
-  font-size: 1.05rem;
+  font-size: 1.35rem;
   font-weight: 700;
   color: var(--primary);
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .stat {
