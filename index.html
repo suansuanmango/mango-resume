@@ -17,7 +17,7 @@
       <ul>
         <li><a href="#about">關於我</a></li>
         <li><a href="#skills">我如何解決問題</a></li>
-        <li><a href="#works">作品集</a></li>
+        <li><a href="#works">實務案例</a></li>
         <li><a href="#timeline">職涯歷程</a></li>
         <li><a href="#contact">聯絡</a></li>
       </ul>
@@ -124,54 +124,53 @@
   <!-- Works -->
   <section id="works">
     <div class="container">
-      <h2 class="section-title">作品集</h2>
+      <h2 class="section-title">實務案例</h2>
+      <p class="works-subtitle">從需求分析、流程設計到工具導入，以下是幾個我參與並推動落地的實際案例。</p>
 
-      <p class="works-category">AI 自學作品</p>
       <div class="works-grid">
         <div class="work-card">
-          <div class="work-badge ai">AI 自建</div>
-          <h4>每日早報自動化系統</h4>
-          <p>每天早上 7:30 自動收到個人化早報，整合 Google Calendar、Gmail、Google News、天氣資訊，用 AI 生成摘要。從零工程背景，靠 Claude Code 輔助完成，0 人工操作。</p>
+          <div class="work-img-placeholder"></div>
+          <h4>事業處官網重構與使用者體驗優化</h4>
+          <p>透過消費者旅程、官網使用行為與門市訪談，重新整理網站資訊架構與內容邏輯，協助整合跨部門需求，並規劃網站地圖（Sitemap）與導覽架構，提升資訊傳遞效率與使用者體驗。</p>
+        </div>
+        <div class="work-card">
+          <div class="work-img-placeholder"></div>
+          <h4>溫泉品牌籌備與營運模式建構</h4>
+          <p>參與溫泉品牌從 0 到 1 籌備，涵蓋市場分析、品牌定位、專案發包、人才招募、教育訓練、制度建立與開業營運規劃，協助建立可持續運作的營運模式與團隊流程。</p>
+        </div>
+        <div class="work-card">
+          <div class="work-img-placeholder"></div>
+          <h4>訂位系統與旅遊平台導入整合</h4>
+          <p>規劃並導入 iCHEF、inline 等營運系統，以及 KKday、Klook、Niceday、Rezio 等旅遊平台。透過流程梳理與系統整合，建立從訂位、訂單管理到營運追蹤的作業流程，提升營運效率與資訊透明度。</p>
+        </div>
+      </div>
+
+      <h3 class="works-section-heading">AI 工作流實驗室</h3>
+      <p class="works-subtitle">從真實需求出發，運用 AI 與自動化工具建立可持續運作的工作流程，持續探索技術在日常工作中的實際價值。</p>
+
+      <div class="works-grid">
+        <div class="work-card">
+          <div class="work-img-placeholder"></div>
+          <h4>個人智慧早報系統</h4>
+          <p>整合 Google Calendar、Gmail、新聞與天氣資訊，每日自動產生個人化早報，減少資訊蒐集與整理時間，讓重要事項集中呈現。</p>
           <div class="work-tech">
-            <span>Python</span><span>Gemini API</span><span>Gmail API</span><span>macOS launchd</span>
+            <span>Claude Code</span><span>Google Calendar API</span><span>Gmail API</span><span>Python</span><span>macOS Launchd</span>
           </div>
         </div>
         <div class="work-card">
-          <div class="work-badge ai">AI 自建</div>
-          <h4>個人投資儀表板</h4>
-          <p>GitHub Pages 自製儀表板，手機開網址即可看資產現值、AI 財經分析、交易紀錄。每日自動更新股價與 AI 分析，包含多頁面與圓餅圖視覺化。</p>
+          <div class="work-img-placeholder"></div>
+          <h4>AI 投資儀表板</h4>
+          <p>建立個人投資追蹤平台，自動整合股價、持股資訊與 AI 分析結果，集中管理投資決策所需資訊，降低人工整理成本。</p>
           <div class="work-tech">
             <span>GitHub Pages</span><span>Python</span><span>yfinance</span><span>Gemini API</span>
           </div>
         </div>
         <div class="work-card">
-          <div class="work-badge ai">AI 自建</div>
-          <h4>Telegram Bot 個人助理</h4>
-          <p>用 Telegram 傳一句話就能查資產、記錄交易、更新儀表板、問任何問題。常駐 daemon 架構，收到訊息 1-2 秒內回應，並自動連動更新投資資料。</p>
+          <div class="work-img-placeholder"></div>
+          <h4>Telegram AI 個人助理</h4>
+          <p>透過 Telegram 作為操作介面，整合資訊查詢、資料更新與通知功能，打造可隨時互動的個人工作助理，提升日常資訊處理效率。</p>
           <div class="work-tech">
-            <span>Telegram API</span><span>Gemini API</span><span>Python</span><span>macOS launchd</span>
-          </div>
-        </div>
-      </div>
-
-      <p class="works-category" style="margin-top: 48px;">重點專案</p>
-      <div class="works-grid works-grid-2">
-        <div class="work-card">
-          <div class="work-badge project">實務專案</div>
-          <h4>蔥澡 Hotspringonion 品牌籌備專案</h4>
-          <p class="work-period">2014 – 2016｜宜蘭礁溪</p>
-          <p>接手 40 年溫泉舊建案（230 坪），從建照申請、空間規劃、品牌定位，到整合 6 位駐點藝術家、系統導入與開業營運，全程獨立負責。一年內完成，開業後受邀 10+ 媒體專訪，並獲邀擔任宜蘭青年創業論壇與談人。</p>
-          <div class="work-tech">
-            <span>品牌策略</span><span>專案管理</span><span>0 → 1 執行</span><span>系統導入</span>
-          </div>
-        </div>
-        <div class="work-card">
-          <div class="work-badge project">實務專案</div>
-          <h4>地方型 SBIR 政府補助案</h4>
-          <p class="work-period">2021 – 2022｜宜蘭縣</p>
-          <p>獨立撰寫補助計畫書，整合精釀、紡織、印刷等跨產業廠商合作，成功申請 100 萬政府補助。計畫期間遇疫情封鎖，仍完成結案目標，產出 4-5 項異業合作商品。</p>
-          <div class="work-tech">
-            <span>計畫書撰寫</span><span>異業合作</span><span>專案執行</span><span>結案管理</span>
+            <span>Telegram Bot API</span><span>Gemini API</span><span>Python</span><span>macOS Launchd</span>
           </div>
         </div>
       </div>
