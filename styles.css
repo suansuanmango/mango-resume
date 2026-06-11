@@ -440,6 +440,10 @@ section { padding: 88px 0; }
   display: block;
 }
 
+.work-card .work-img-wrap img[src*="蔥澡門面照"] {
+  object-position: center 65%;
+}
+
 .works-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
