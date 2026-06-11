@@ -424,6 +424,22 @@ section { padding: 88px 0; }
   margin-bottom: 18px;
 }
 
+.work-card .work-img-wrap {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+.work-card .work-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
 .works-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
