@@ -580,6 +580,29 @@ section { padding: 88px 0; }
 }
 .contact-item:hover { border-color: var(--primary); color: var(--primary); }
 
+/* ── Lightbox ─────────────────────────────────────────────── */
+.lightbox-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.88);
+  z-index: 1000;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
+}
+.lightbox-overlay.active { display: flex; }
+.lightbox-overlay img {
+  max-width: 90vw;
+  max-height: 90vh;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 8px 48px rgba(0,0,0,0.6);
+}
+
+.skill-img-wrap img,
+.work-img-wrap img { cursor: zoom-in; }
+
 /* ── Footer ───────────────────────────────────────────────── */
 footer {
   background: var(--text);
