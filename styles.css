@@ -593,8 +593,8 @@ section { padding: 88px 0; }
 }
 .lightbox-overlay.active { display: flex; }
 .lightbox-overlay img {
-  max-width: 90vw;
-  max-height: 90vh;
+  max-width: 35vw;
+  max-height: 55vh;
   object-fit: contain;
   border-radius: 8px;
   box-shadow: 0 8px 48px rgba(0,0,0,0.6);
