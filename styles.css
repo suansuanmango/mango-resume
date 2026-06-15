@@ -273,6 +273,15 @@ section { padding: 88px 0; }
   margin-top: 4px;
 }
 
+.stat-desc {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 10px;
+  line-height: 1.55;
+  text-align: left;
+}
+
 /* ── Skills ───────────────────────────────────────────────── */
 .skills-grid {
   display: grid;
