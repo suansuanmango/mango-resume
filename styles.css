@@ -532,6 +532,7 @@ section { padding: 88px 0; }
 }
 
 .work-tech { display: flex; flex-wrap: wrap; gap: 6px; }
+#ai-lab .work-tech { margin-top: 16px; }
 .work-tech span {
   background: var(--bg);
   border: 1px solid var(--border);
