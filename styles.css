@@ -498,6 +498,15 @@ section { padding: 88px 0; }
 .work-badge.ai      { background: #EAF3E8; color: #2D6B26; }
 .work-badge.project { background: #EAE8F3; color: #3A3280; }
 
+.work-type {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--primary-light);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 8px !important;
+}
+
 .work-card h4 {
   font-family: 'Noto Serif TC', serif;
   font-size: 1.1rem;
