@@ -226,18 +226,17 @@ section { padding: 88px 0; }
 #about { background: var(--bg-alt); }
 
 .about-content {
-  display: grid;
-  grid-template-columns: 1fr 300px;
-  gap: 60px;
-  align-items: start;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 .about-text p { margin-bottom: 1rem; line-height: 1.85; }
 
 .about-stats {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
   align-content: start;
 }
 
@@ -625,8 +624,7 @@ footer {
 @media (max-width: 1000px) {
   .skills-grid    { grid-template-columns: repeat(3, 1fr); }
   .creds-grid     { grid-template-columns: repeat(2, 1fr); }
-  .about-content  { grid-template-columns: 1fr; }
-  .about-stats    { grid-template-columns: repeat(4, 1fr); }
+  .about-stats    { grid-template-columns: repeat(2, 1fr); }
   .hero-content   { grid-template-columns: 1fr; }
   .hero-photo     { order: -1; }
   .hero-photo img { width: 200px; height: 200px; }
