@@ -316,7 +316,7 @@ section { padding: 88px 0; }
 }
 
 .skill-img-wrap img[src*="問題診斷流程"] { object-position: center 35%; }
-.skill-img-wrap img[src*="skill-ai"]   { object-position: center 40%; }
+.skill-img-wrap img[src*="系統導入教學"] { object-position: center 20%; }
 .skill-img-wrap img[src*="skill-project"] { object-position: center 40%; }
 
 .skill-card h3 {
