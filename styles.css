@@ -468,6 +468,7 @@ section { padding: 88px 0; }
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 18px;
+  position: relative;
 }
 
 .work-card .work-img-wrap img {
