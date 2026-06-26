@@ -307,6 +307,25 @@
     document.addEventListener('keydown', e => {
       if (e.key === 'Escape') overlay.classList.remove('active');
     });
+
+    // GA4 click tracking
+    const sectionNames = {
+      '#about': '關於我', '#skills': '解決問題', '#works': '實務案例',
+      '#ai-lab': 'AI實驗室', '#timeline': '職涯歷程', '#contact': '聯絡'
+    };
+    document.querySelectorAll('nav a, .btn-primary, .btn-ghost').forEach(el => {
+      el.addEventListener('click', () => {
+        const href = el.getAttribute('href');
+        gtag('event', 'nav_click', { section: sectionNames[href] || href });
+      });
+    });
+    document.querySelectorAll('.contact-item').forEach(el => {
+      el.addEventListener('click', () => {
+        const href = el.getAttribute('href') || '';
+        const label = href.startsWith('mailto') ? 'Email' : href.startsWith('tel') ? '電話' : 'LinkedIn';
+        gtag('event', 'contact_click', { method: label });
+      });
+    });
   </script>
 </body>
 </html>
